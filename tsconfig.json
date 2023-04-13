@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "removeComments": true,
+    "declarationDir": "./dist"
+  },
+  "include": ["src"]
+}

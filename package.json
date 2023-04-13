@@ -1,0 +1,40 @@
+{
+  "name": "kerning",
+  "version": "0.0.1",
+  "description": "A function for applying kerning to HTML text element.",
+  "author": {
+    "name": "Tsukasa Aoki",
+    "url": "https://twitter.com/chenziappu"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/kerning.umd.js",
+  "module": "./dist/kerning.mjs",
+  "types": "./dist/kerning.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/kerning.mjs",
+      "require": "./dist/kerning.umd.js"
+    }
+  },
+  "keywords": [
+    "kerning",
+    "typography"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chenziappu/kerning.git"
+  },
+  "license": "ISC",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && tsc",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "terser": "^5.16.9",
+    "typescript": "^4.9.3",
+    "vite": "^4.2.0"
+  }
+}
