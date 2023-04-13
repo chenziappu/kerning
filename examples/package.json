@@ -12,6 +12,5 @@
     "vite": "^4.2.0"
   },
   "dependencies": {
-    "kerning": "^0.1.2"
   }
 }
