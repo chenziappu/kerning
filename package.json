@@ -1,6 +1,6 @@
 {
   "name": "kerning",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A function for applying kerning to HTML text element.",
   "author": {
     "name": "Tsukasa Aoki",
