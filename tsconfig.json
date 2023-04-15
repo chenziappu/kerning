@@ -4,6 +4,7 @@
     "declaration": true,
     "emitDeclarationOnly": true,
     "removeComments": true,
+    "strict": true,
     "declarationDir": "./dist"
   },
   "include": ["src"]
