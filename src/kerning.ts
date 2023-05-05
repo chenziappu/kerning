@@ -2,7 +2,7 @@ export default function kerning(
   textElement: HTMLElement,
   kerningData: { [index: number]: number },
   direction: string = 'horizontal'
-): void {
+) {
   const lines = textElement.innerText.split('\n');
   
   const property = direction === 'vertical'
@@ -28,4 +28,6 @@ export default function kerning(
   });
 
   textElement.innerHTML = result;
+
+  return textElement;
 }
