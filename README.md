@@ -1,4 +1,4 @@
-# kerning
+# @roukara/kerning
 
 This library provides a function for applying kerning to text within an HTML element. Kerning is the process of adjusting the spacing between characters in a font to create a visually pleasing result. By adding extra space between certain characters, we can improve the legibility and aesthetics of text.
 
@@ -7,14 +7,14 @@ This library provides a function for applying kerning to text within an HTML ele
 ## Install
 
 ```sh
-npm install kerning
+npm install @roukara/kerning
 ```
 ```js
-import kerning from 'kerning';
+import kerning from '@roukara/kerning';
 ```
 or
 ```html
-<script src="https://unpkg.com/kerning"></script>
+<script src="https://unpkg.com/@roukara/kerning"></script>
 ```
 
 <br>

@@ -1,10 +1,10 @@
 {
-  "name": "kerning",
-  "version": "1.0.1",
+  "name": "@roukara/kerning",
+  "version": "0.0.1",
   "description": "A function for applying kerning to HTML text element.",
   "author": {
     "name": "Tsukasa Aoki",
-    "url": "https://twitter.com/chenziappu"
+    "url": "https://twitter.com/roukara_"
   },
   "files": [
     "dist"
@@ -24,7 +24,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/chenziappu/kerning.git"
+    "url": "https://github.com/roukara/kerning.git"
   },
   "license": "ISC",
   "scripts": {
